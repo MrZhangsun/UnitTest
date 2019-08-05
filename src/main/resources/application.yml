@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: unit-test
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+  datasource:
+    url: jdbc:mysql://10.11.1.220:3306/terminal_4_0_1?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8&useSSL=false
+    name: gis
+    username: root
+    password: 123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  level.com.yxt.vehicle.gis.mapper: debug
